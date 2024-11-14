@@ -36,7 +36,24 @@
 
             <textarea id="textInput" placeholder="Enter text to convert to speech..."></textarea>
         </div>
+        <hr>
+        <div class="weather-widget">
+            <div class="weather-info">
+                <input type="text" id="cityInput" placeholder="Enter city name">
+                <button id="getWeather">Get Weather</button>
+            </div>
+            <div id="weatherData">
+                <p id="loading" class="loading">Loading weather data...</p>
+                <div id="weatherDisplay"></div>
+                <div id="weatherError" class="weather-error"></div>
+            </div>
+        </div>
+        <hr>
+        <div class="news-container"></div>
+
         <script src="script.js"></script>
+        <script src="weather.js"></script>
+        <script src="news.js"></script>
     </body>
 
 </html>
